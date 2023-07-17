@@ -8,3 +8,8 @@
 #
 # Unless required by applicable law or agreed to in writing, software
 # distributed under the License is distributed on an "AS IS" BASIS,
+from setuptools import setup
+
+# Do not edit these constants. They will be updated automatically
+# by scripts/update-client.sh.
+CLIENT_VERSION = "27.0.0+snapshot"
