@@ -31,3 +31,5 @@ with open('requirements.txt') as f:
   for line in f:
         line, _, _ = line.partition('#')
  for_specifier = EXTRAS.setdefault(':{}'.format(specifier), [])
+for_specifier.append(requirement)
+        else:
