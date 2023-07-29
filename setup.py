@@ -37,3 +37,6 @@ for_specifier.append(requirement)
 
 with open('test-requirements.txt') as f:
     TESTS_REQUIRES = f.readlines()
+
+setup(
+    name=PACKAGE_NAME,
