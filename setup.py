@@ -42,3 +42,5 @@ setup(
     name=PACKAGE_NAME,
  version=CLIENT_VERSION,
  description="Kubernetes python client",
+ author_email="",
+    author="Kubernetes",
