@@ -11,3 +11,4 @@
 from setuptools import setup
 
 # Do not edit these constants. They will be updated automatically
+# by scripts/update-client.sh.
