@@ -17,3 +17,7 @@ PACKAGE_NAME = "kubernetes"
 DEVELOPMENT_STATUS = "3 - Alpha"
 
 # To install the library, run the following
+#
+# python setup.py install
+#
+# prerequisite: setuptools
