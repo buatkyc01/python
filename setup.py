@@ -26,3 +26,5 @@ DEVELOPMENT_STATUS = "3 - Alpha"
 EXTRAS = {
   'adal': ['adal>=1.0.2']
 }
+REQUIRES = []
+with open('requirements.txt') as f:
