@@ -28,3 +28,5 @@ EXTRAS = {
 }
 REQUIRES = []
 with open('requirements.txt') as f:
+  for line in f:
+        line, _, _ = line.partition('#')
