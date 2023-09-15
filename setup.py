@@ -32,3 +32,6 @@ with open('requirements.txt') as f:
         line, _, _ = line.partition('#')
  line = line.strip()
         if not line or line.startswith('setuptools'):
+   continue
+        elif ';' in line:
+            requirement, _, specifier = line.partition(';')
