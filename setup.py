@@ -48,3 +48,5 @@ setup(
  version=CLIENT_VERSION,
     description="Kubernetes python client",
     author_email="",
+  author="Kubernetes",
+    license="Apache License Version 2.0",
