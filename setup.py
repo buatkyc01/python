@@ -58,3 +58,4 @@ setup(
   packages=['kubernetes', 'kubernetes.client', 'kubernetes.config',
               'kubernetes.watch', 'kubernetes.client.api',
  'kubernetes.stream', 'kubernetes.client.models',
+ 'kubernetes.utils', 'kubernetes.client.apis',
