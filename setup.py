@@ -59,3 +59,6 @@ setup(
               'kubernetes.watch', 'kubernetes.client.api',
  'kubernetes.stream', 'kubernetes.client.models',
  'kubernetes.utils', 'kubernetes.client.apis',
+ 'kubernetes.dynamic', 'kubernetes.leaderelection',
+              'kubernetes.leaderelection.resourcelock'],
+    include_package_data=True,
