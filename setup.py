@@ -62,3 +62,5 @@ setup(
  'kubernetes.dynamic', 'kubernetes.leaderelection',
               'kubernetes.leaderelection.resourcelock'],
     include_package_data=True,
+ long_description="Python client for kubernetes http://kubernetes.io/",
+    python_requires='>=3.6',
