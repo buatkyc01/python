@@ -64,3 +64,5 @@ setup(
     include_package_data=True,
  long_description="Python client for kubernetes http://kubernetes.io/",
     python_requires='>=3.6',
+ classifiers=[
+        "Development Status :: %s" % DEVELOPMENT_STATUS,
