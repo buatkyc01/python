@@ -68,3 +68,5 @@ setup(
         "Development Status :: %s" % DEVELOPMENT_STATUS,
 "Topic :: Utilities",
         "Intended Audience :: Developers",
+ "Intended Audience :: Information Technology",
+        "License :: OSI Approved :: Apache Software License",
