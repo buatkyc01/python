@@ -18,3 +18,7 @@ from setuptools import setup
 CLIENT_VERSION = "27.0.0+snapshot"
 PACKAGE_NAME = "kubernetes"
 DEVELOPMENT_STATUS = "3 - Alpha"
+
+# To install the library, run the following
+#
+# python setup.py install
