@@ -24,3 +24,6 @@ DEVELOPMENT_STATUS = "3 - Alpha"
 # python setup.py install
 #
 # prerequisite: setuptools
+# http://pypi.python.org/pypi/setuptools
+
+EXTRAS = {
