@@ -41,3 +41,6 @@ with open('requirements.txt') as f:
  for_specifier = EXTRAS.setdefault(':{}'.format(specifier), [])
  for_specifier.append(requirement)
         else:
+   REQUIRES.append(line)
+
+with open('test-requirements.txt') as f:
