@@ -49,3 +49,4 @@ with open('test-requirements.txt') as f:
 setup(
     name=PACKAGE_NAME,
     version=CLIENT_VERSION,
+   description="Kubernetes python client",
