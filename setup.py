@@ -56,3 +56,5 @@ setup(
 url="https://github.com/kubernetes-client/python",
  keywords=["Swagger", "OpenAPI", "Kubernetes"],
     install_requires=REQUIRES,
+ tests_require=TESTS_REQUIRES,
+    extras_require=EXTRAS,
