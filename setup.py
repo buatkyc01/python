@@ -69,3 +69,5 @@ url="https://github.com/kubernetes-client/python",
   python_requires='>=3.6',
     classifiers=[
         "Development Status :: %s" % DEVELOPMENT_STATUS,
+ "Topic :: Utilities",
+        "Intended Audience :: Developers",
