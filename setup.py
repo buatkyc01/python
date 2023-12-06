@@ -37,3 +37,4 @@ with open('requirements.txt') as f:
         if not line or line.startswith('setuptools'):
             continue
         elif ';' in line:
+          requirement, _, specifier = line.partition(';')
