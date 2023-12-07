@@ -38,3 +38,4 @@ with open('requirements.txt') as f:
             continue
         elif ';' in line:
           requirement, _, specifier = line.partition(';')
+  for_specifier = EXTRAS.setdefault(':{}'.format(specifier), [])
